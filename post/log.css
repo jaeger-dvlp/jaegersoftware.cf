@@ -1,0 +1,273 @@
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior:smooth;
+      -moz-scroll-behavior: smooth;
+      -o-scroll-behavior: smooth;
+      -webkit-scroll-behavior: smooth;
+    }
+    }
+  
+  
+  div{
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+  .topbtn{
+    width:40px;
+    height:40px;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    border-radius:100px;
+    background-image: linear-gradient(to right,#169A80, #33E57E);
+    z-index:200;
+    opacity:0;
+    transition:all 0.7s;
+    box-shadow: 0px 0px 30px black;
+    cursor: pointer;
+  }
+  
+  
+  ::-webkit-scrollbar {
+      width: 5px;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #33353D; 
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #29CD84; 
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background: #1DE38B; 
+    }
+    
+  .header1{
+      background-color:#292C38;
+      width: 100%;
+      height: 200px;
+  }
+  .header2{
+      box-shadow: 0px 10px 20px black;
+      background-image: linear-gradient(to right,#169A80, #33E57E);
+      width: 100%;
+      height: 3px;
+  }
+  .header3{
+    box-shadow: 0px 10px 20px black;
+    background-image: linear-gradient(to right,#169A80, #33E57E);
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom:0px;
+  }
+  
+  .logo{
+  
+      background-image:url("../resources/logojpeg.jpg");
+      width: 210px;
+      height: 190px;
+      background-position: center;
+      background-size: cover;
+      margin-top: 0px;
+  
+  
+  }
+  
+  .mainheader{
+  
+      animation-name: headeranim;
+      animation-duration:2s;
+      animation-timing-function:ease-in-out;
+      width:100%;
+      height:100%;
+  
+  
+  
+  }
+  
+  .hitext{
+      font-family: 'Raleway';
+      font-weight: 100;
+      color: white;
+      font-size: 55px;
+      animation-name: hianim;
+      animation-duration:2s;
+      animation-timing-function:ease-in-out;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+  }
+  
+  .hitext2{
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white;
+    font-size: 25px;
+    animation-name: hianim;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    text-align: center;
+  }
+  
+  @keyframes headeranim{
+  
+      0%{position: absolute;width:100%; top:-253px;opacity:0;}
+      100%{position: absolute;height:100%; top:0px;opacity: 1;}
+      
+      }
+  
+      @keyframes hianim{
+  
+          0%{opacity:0;}
+          100%{opacity: 1;}
+          
+      }
+  
+      @keyframes mainanim{ 
+
+        0%{display: block;position: relative;top:-100px;opacity:0;}
+        10%{position: relative;top:-10px;}
+        100%{position: relative;top:50px;opacity:1;}
+        
+      }
+  
+  
+  
+  
+  
+  
+  
+      /*
+      A
+      A
+      A
+      A
+      */
+  
+  .hrs{
+    box-shadow: 0px 10px 20px black;
+    background-image: linear-gradient(to right,#169A80, #33E57E);
+    width: 50%;
+    height: 2px;
+    position: relative;
+  }
+  
+  .hrs1{
+    box-shadow: 0px 10px 20px black;
+    background-image: linear-gradient(to right,#169A80, #33E57E);
+    width: 50%;
+    height: 2px;
+    position: relative;
+  }
+
+  .avatar{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.548);
+      width:150px;
+      height:150px;
+      animation-name: hianim;
+      animation-duration:2s;
+      animation-timing-function:ease-in-out;
+      animation-delay: 2.5s;
+      animation-fill-mode: forwards;
+      opacity: 0;
+      border-radius:200px;
+      border:2px solid #33E57E;
+      background-image:url("../resources/userpics/admin.jpg");
+      background-size:contain;
+  }
+  
+  /*
+  A
+  A
+  A
+  A
+  A
+  */
+  
+.admin{
+    margin-top:100px;
+    animation-name:mainanim;
+    animation-duration:1s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+      
+}
+  .admtext1{
+    font-family: 'Raleway';
+    font-weight: 100;
+    color: white;
+    font-size: 40px;
+  }
+
+  .menus{
+    width:600px;
+    height:auto;
+    background-color:#23252d;
+    border-radius:10px;
+    border:2px solid #17181d;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .form-control{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .inputtext{
+    background-color:#23252d;
+    border:1px solid #0f1013;
+    border-radius:5px;
+    color:white;
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size:20px;
+    transition:all 0.3s;
+    padding:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn{
+    background-color:#33E57E;
+    border:1px solid #33E57E;
+    width:200px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight:400;
+    font-size:20px;
+    text-shadow:0px 0px 10px black;
+}
+
+.btn:hover{
+
+  color:#33E57E;
+  border:1px solid #33E57E;
+  background-color: transparent;
+}
+
+.form-select2{
+  background-color:#23252d;
+    border:1px solid #0f1013;
+    border-radius:5px;
+    color:white;
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size:20px;
+    transition:all 0.3s;
+    padding:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+

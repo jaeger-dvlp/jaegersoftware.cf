@@ -1,0 +1,114 @@
+.groups{
+    position: relative;
+    top: 100px;
+    opacity:0;
+    animation-name: mainanim;
+    animation-duration:1s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+}
+
+.group{
+
+    width:600px;
+    height:auto;
+    background-color:#23252d;
+    border-radius:10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.group-header{
+    
+    font-family: 'Raleway';
+    padding:0px;
+}
+
+.gh1{
+    color:White;
+    font-size:30px;
+    font-weight:300;
+}
+
+.gh2{
+    font-size:25px;
+    font-weight:400;
+    background: -webkit-linear-gradient(1deg,#33E57E,#169A80);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.group-desc{
+    font-size:17px;
+    margin-top:10px;
+    font-weight:300;
+    color:rgb(221, 220, 220);
+    font-family:'Roboto';
+    word-wrap: break-word;
+}
+
+.group-code pre{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    position:relative;
+    word-wrap: none;
+    left:0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.group-code code{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    position:relative;
+    word-wrap: none;
+    left:0;
+}
+.group-code {
+    margin-top:0;
+    word-wrap: none;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.search{
+    width:300px;
+    height:40px;
+    background-color:#23252d;
+    border:1px solid #191b20;
+    border-radius:100px;
+    color:white;
+    font-family: 'Roboto';
+    font-weight:200;
+    font-size:20px;
+    transition:all 1s;
+    padding:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search:focus{
+    outline:none;
+    border:1px solid rgb(24, 106, 182);
+}
+
+
+
+.windowtab{
+    background-color:rgb(111, 112, 114);
+    width:100%;
+    height:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    position: relative;
+    bottom:-21px;
+    margin-bottom:0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.windowtabicons{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width:10px;
+    height:10px;
+    background-color:#FF5E52;
+    margin-top:5px;
+    border-radius:100px;
+}
+
